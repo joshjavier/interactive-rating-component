@@ -1,0 +1,34 @@
+{
+  "title": "Colors",
+  "description": "Hex color codes and a gradient",
+  "items": [
+    {
+      "name": "Dark Blue",
+      "value": "#262E38"
+    },
+    {
+      "name": "Light Grey",
+      "value": "#969FAD"
+    },
+    {
+      "name": "Medium Grey",
+      "value": "#7C8798"
+    },
+    {
+      "name": "Orange",
+      "value": "#FC7614"
+    },
+    {
+      "name": "Pure White",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "Very Dark Blue",
+      "value": "#131518"
+    },
+    {
+      "name": "Black (Gradient)",
+      "value": "radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%)"
+    }
+  ]
+}

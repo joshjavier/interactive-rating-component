@@ -1,0 +1,21 @@
+@import 'tailwindcss/base';
+
+@import 'global/reset.css';
+@import 'global/fonts.css';
+
+@import 'tailwindcss/components';
+
+@import 'global/css-lock.css';
+@import 'global/global-styles.css';
+
+@import 'blocks/rating.css';
+@import 'blocks/rating-button.css';
+@import 'blocks/rating-success.css';
+@import 'blocks/card.css';
+@import 'blocks/icon.css';
+
+@import 'utilities/visually-hidden.css';
+@import 'utilities/flow.css';
+@import 'utilities/wrapper.css';
+
+@import 'tailwindcss/utilities';

@@ -1,0 +1,10 @@
+.card {
+  --flow-space: var(--space-6);
+  color: var(--color-light-grey);
+  background: var(--color-black-gradient);
+  border-radius: calc(15px + (30 - 15) * var(--fluid-bp));
+  padding: calc(var(--space-6) + (32 - 24) * var(--fluid-bp));
+  padding-bottom: var(--space-8);
+  max-width: 412px;
+  border: none;
+}

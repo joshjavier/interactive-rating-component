@@ -1,0 +1,13 @@
+.icon {
+  background: var(--color-dark-blue);
+  width: calc(var(--space-10) + (48 - 40) * var(--fluid-bp));
+  height: calc(var(--space-10) + (48 - 40) * var(--fluid-bp));
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.icon svg {
+  width: calc((13.96 / 16 * 1rem) + (16.75 - 13.96) * var(--fluid-bp));
+}

@@ -1,0 +1,18 @@
+::backdrop {
+  background: #131518;
+}
+
+.rating-result {
+  color: var(--color-orange);
+  background: var(--color-dark-blue);
+  display: inline-block;
+  padding: var(--space-1) calc(var(--space-3) + (32 - 12) * var(--fluid-bp));
+  border-radius: 22.5px;
+  line-height: 1.6;
+}
+
+.rating-success-image {
+  display: block;
+  margin-inline: auto;
+  width: calc((144 / 16 * 1rem) + (162 - 144) * var(--fluid-bp));
+}

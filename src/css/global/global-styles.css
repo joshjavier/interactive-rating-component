@@ -1,0 +1,74 @@
+/* Enforce a measure for all elements, with a few exceptions */
+* {
+  max-inline-size: var(--measure, 60ch);
+}
+
+html,
+body,
+div,
+header,
+nav,
+main,
+footer,
+section {
+  max-inline-size: none;
+}
+
+/* Remove default form styling */
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+legend {
+  width: 100%;
+}
+
+/* Set global styles */
+body {
+  display: grid;
+  place-items: center;
+  line-height: 1.6;
+
+  /* Wrapper defaults */
+  --wrapper-max-width: 412px;
+  --gutter: var(--space-6);
+}
+
+a {
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+h2 {
+  font-size: var(--size-heading);
+  color: var(--color-pure-white);
+}
+
+button {
+  color: var(--color-pure-white);
+  background: var(--color-orange);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+
+  display: block;
+  width: 100%;
+  border-radius: 22.5px;
+  border: none;
+  padding: 12px;
+}
+button:hover {
+  color: var(--color-orange);
+  background-color: var(--color-pure-white);
+}
+button:focus-visible {
+  outline: 3px solid orange;
+  outline-offset: 2px;
+}

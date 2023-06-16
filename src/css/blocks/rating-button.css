@@ -1,0 +1,43 @@
+.rating-button {
+  position: relative;
+  display: block;
+  width: calc((42 / 16 * 1rem) + (51 - 42) * var(--fluid-bp));
+  height: calc((42 / 16 * 1rem) + (51 - 42) * var(--fluid-bp));
+}
+
+.rating-button > input[type='radio'] {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Style the visual rating buttons */
+.rating-button > span {
+  background: var(--color-dark-blue);
+  height: 100%;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+}
+
+/* Indicate checked state */
+.rating-button > :checked + span {
+  background-color: var(--color-medium-grey);
+  color: var(--color-pure-white);
+}
+
+/* Show focus outline on the visual button */
+.rating-button > :focus-visible + span {
+  outline: 3px solid orange;
+  outline-offset: 2px;
+}
+
+/* Indicate hover state */
+.rating-button:hover > span {
+  background-color: var(--color-orange);
+  color: var(--color-pure-white);
+}
