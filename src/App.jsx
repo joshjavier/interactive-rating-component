@@ -48,7 +48,7 @@ export default function App() {
         role="alertdialog"
         aria-labelledby="success-label"
         aria-describedby="success-description"
-        className="[ card ] [ flow text-center ]"
+        className="wrapper"
       >
         <RatingSuccess scale={scale} rating={rating}>
           <ThankYouImage
@@ -101,12 +101,12 @@ function NumberRatingButton({ value, onChange, checked }) {
 function RatingSuccess({ scale, rating, children }) {
   const [image, ...content] = children
   return (
-    <>
+    <div className="[ card ] [ flow text-center ]">
       {image}
       <p className="rating-result">
         You selected {rating} out of {scale}
       </p>
       {content}
-    </>
+    </div>
   )
 }

@@ -25,6 +25,12 @@ legend {
   width: 100%;
 }
 
+dialog {
+  border: none;
+  padding: 0;
+  background: transparent;
+}
+
 /* Set global styles */
 body {
   display: grid;
